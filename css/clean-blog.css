@@ -169,12 +169,13 @@ img::-moz-selection {
 }
 
 header.masthead {
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+  max-height: 640px;
 }
 
 header.masthead .overlay {
@@ -383,9 +384,9 @@ footer .copyright {
 }
 
 .btn {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 800;
-  padding: 15px 25px;
+  padding: 20px 40px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
@@ -395,12 +396,17 @@ footer .copyright {
 .btn-primary {
   background-color: #0085A1;
   border-color: #0085A1;
+  width: 33.33%;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #00657b !important;
   border-color: #00657b !important;
+}
+
+.btn-group {
+    width: 100%;
 }
 
 .btn-lg {
